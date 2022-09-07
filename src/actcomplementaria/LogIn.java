@@ -37,7 +37,7 @@ public class LogIn extends JFrame{
 			 return;
                     }
                     JOptionPane.showMessageDialog(null, "Bienvenido");
-                    administrator admin = new administrator();
+                    administrator admin = new administrator(conn);
                     this.dispose(); 
                 }
 	}
